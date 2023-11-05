@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'CocoaTouchStaticLibrary' target in the 'CocoaTouchStaticLibrary' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#include <string>
+#include <list>
+#include <map>
+
+#include "ESPlatform.h"
+#include "ESUtil.hpp"
+#include "ESFile.hpp"
+#include "ESLock.hpp"
+#include "ESThread.hpp"
+#include "ESUserString.hpp"

@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		922B1D2816DD8FC800DF56FD /* ESFile_simpleResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922B1D2716DD8FC800DF56FD /* ESFile_simpleResource.cpp */; };
+		926D959416DC45D00058BA15 /* ESFile.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D957F16DC45D00058BA15 /* ESFile.hpp */; };
+		926D959516DC45D00058BA15 /* ESFileArray.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958016DC45D00058BA15 /* ESFileArray.hpp */; };
+		926D959616DC45D00058BA15 /* ESFileArrayInl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958116DC45D00058BA15 /* ESFileArrayInl.hpp */; };
+		926D959716DC45D00058BA15 /* ESInterThreadObserver.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958216DC45D00058BA15 /* ESInterThreadObserver.hpp */; };
+		926D959816DC45D00058BA15 /* ESLock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958316DC45D00058BA15 /* ESLock.hpp */; };
+		926D959916DC45D00058BA15 /* ESNameResolver.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958416DC45D00058BA15 /* ESNameResolver.hpp */; };
+		926D959A16DC45D00058BA15 /* ESNetwork.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958516DC45D00058BA15 /* ESNetwork.hpp */; };
+		926D959B16DC45D00058BA15 /* ESThreadLocalStorage.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958616DC45D00058BA15 /* ESThreadLocalStorage.hpp */; };
+		926D959C16DC45D00058BA15 /* ESThreadLocalStorageInl_pthreads.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958716DC45D00058BA15 /* ESThreadLocalStorageInl_pthreads.hpp */; };
+		926D959D16DC45D00058BA15 /* ESTrace.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958816DC45D00058BA15 /* ESTrace.hpp */; };
+		926D959E16DC45D00058BA15 /* ESUserPrefs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 926D958916DC45D00058BA15 /* ESUserPrefs.hpp */; };
+		926D959F16DC45D00058BA15 /* ESErrorReporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D958A16DC45D00058BA15 /* ESErrorReporter.cpp */; };
+		926D95A016DC45D00058BA15 /* ESFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D958B16DC45D00058BA15 /* ESFile.cpp */; };
+		926D95A116DC45D00058BA15 /* ESFileArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D958C16DC45D00058BA15 /* ESFileArray.cpp */; };
+		926D95A216DC45D00058BA15 /* ESInterThreadObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D958D16DC45D00058BA15 /* ESInterThreadObserver.cpp */; };
+		926D95A316DC45D00058BA15 /* ESLock_pthreads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D958E16DC45D00058BA15 /* ESLock_pthreads.cpp */; };
+		926D95A416DC45D00058BA15 /* ESNameResolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D958F16DC45D00058BA15 /* ESNameResolver.cpp */; };
+		926D95A516DC45D00058BA15 /* ESNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D959016DC45D00058BA15 /* ESNetwork.cpp */; };
+		926D95A616DC45D00058BA15 /* ESThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D959116DC45D00058BA15 /* ESThread.cpp */; };
+		926D95A716DC45D00058BA15 /* ESTrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926D959216DC45D00058BA15 /* ESTrace.cpp */; };
+		926D95AF16DC45FA0058BA15 /* ESErrorReporter_Cocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926D95A916DC45FA0058BA15 /* ESErrorReporter_Cocoa.mm */; };
+		926D95B016DC45FA0058BA15 /* ESFile_Cocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926D95AA16DC45FA0058BA15 /* ESFile_Cocoa.mm */; };
+		926D95B116DC45FA0058BA15 /* ESThread_Cocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926D95AB16DC45FA0058BA15 /* ESThread_Cocoa.mm */; };
+		926D95B216DC45FA0058BA15 /* ESUserPrefs_Cocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926D95AC16DC45FA0058BA15 /* ESUserPrefs_Cocoa.mm */; };
+		926D95B316DC45FA0058BA15 /* ESUtil_Cocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926D95AD16DC45FA0058BA15 /* ESUtil_Cocoa.mm */; };
+		926D95CC16DD73E00058BA15 /* ESUtil_MacOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926D95CB16DD73E00058BA15 /* ESUtil_MacOS.mm */; };
+		926D95CE16DD74AB0058BA15 /* ESNetwork_Cocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926D95CD16DD74AB0058BA15 /* ESNetwork_Cocoa.mm */; };
+		926D95D516DD77F50058BA15 /* ESNetwork_MacOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 926D95D416DD77F50058BA15 /* ESNetwork_MacOS.mm */; };
+		92CE104912E0310600D35626 /* ESErrorReporter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 92CE104112E0310600D35626 /* ESErrorReporter.hpp */; };
+		92CE104A12E0310600D35626 /* ESThread_pthreads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CE104212E0310600D35626 /* ESThread_pthreads.cpp */; };
+		92CE104B12E0310600D35626 /* ESThread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 92CE104312E0310600D35626 /* ESThread.hpp */; };
+		92CE104C12E0310600D35626 /* ESUserString_Cocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 92CE104412E0310600D35626 /* ESUserString_Cocoa.mm */; };
+		92CE104D12E0310600D35626 /* ESUserString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CE104512E0310600D35626 /* ESUserString.cpp */; };
+		92CE104E12E0310600D35626 /* ESUserString.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 92CE104612E0310600D35626 /* ESUserString.hpp */; };
+		92CE104F12E0310600D35626 /* ESUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92CE104712E0310600D35626 /* ESUtil.cpp */; };
+		92CE105012E0310600D35626 /* ESUtil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 92CE104812E0310600D35626 /* ESUtil.hpp */; };
+		92CE105212E0311400D35626 /* ESPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE105112E0311400D35626 /* ESPlatform.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		922B1D2716DD8FC800DF56FD /* ESFile_simpleResource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESFile_simpleResource.cpp; path = ../src/ESFile_simpleResource.cpp; sourceTree = "<group>"; };
+		926D957F16DC45D00058BA15 /* ESFile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESFile.hpp; path = ../src/ESFile.hpp; sourceTree = "<group>"; };
+		926D958016DC45D00058BA15 /* ESFileArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESFileArray.hpp; path = ../src/ESFileArray.hpp; sourceTree = "<group>"; };
+		926D958116DC45D00058BA15 /* ESFileArrayInl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESFileArrayInl.hpp; path = ../src/ESFileArrayInl.hpp; sourceTree = "<group>"; };
+		926D958216DC45D00058BA15 /* ESInterThreadObserver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESInterThreadObserver.hpp; path = ../src/ESInterThreadObserver.hpp; sourceTree = "<group>"; };
+		926D958316DC45D00058BA15 /* ESLock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESLock.hpp; path = ../src/ESLock.hpp; sourceTree = "<group>"; };
+		926D958416DC45D00058BA15 /* ESNameResolver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESNameResolver.hpp; path = ../src/ESNameResolver.hpp; sourceTree = "<group>"; };
+		926D958516DC45D00058BA15 /* ESNetwork.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESNetwork.hpp; path = ../src/ESNetwork.hpp; sourceTree = "<group>"; };
+		926D958616DC45D00058BA15 /* ESThreadLocalStorage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESThreadLocalStorage.hpp; path = ../src/ESThreadLocalStorage.hpp; sourceTree = "<group>"; };
+		926D958716DC45D00058BA15 /* ESThreadLocalStorageInl_pthreads.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESThreadLocalStorageInl_pthreads.hpp; path = ../src/ESThreadLocalStorageInl_pthreads.hpp; sourceTree = "<group>"; };
+		926D958816DC45D00058BA15 /* ESTrace.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESTrace.hpp; path = ../src/ESTrace.hpp; sourceTree = "<group>"; };
+		926D958916DC45D00058BA15 /* ESUserPrefs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESUserPrefs.hpp; path = ../src/ESUserPrefs.hpp; sourceTree = "<group>"; };
+		926D958A16DC45D00058BA15 /* ESErrorReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESErrorReporter.cpp; path = ../src/ESErrorReporter.cpp; sourceTree = "<group>"; };
+		926D958B16DC45D00058BA15 /* ESFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESFile.cpp; path = ../src/ESFile.cpp; sourceTree = "<group>"; };
+		926D958C16DC45D00058BA15 /* ESFileArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESFileArray.cpp; path = ../src/ESFileArray.cpp; sourceTree = "<group>"; };
+		926D958D16DC45D00058BA15 /* ESInterThreadObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESInterThreadObserver.cpp; path = ../src/ESInterThreadObserver.cpp; sourceTree = "<group>"; };
+		926D958E16DC45D00058BA15 /* ESLock_pthreads.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESLock_pthreads.cpp; path = ../src/ESLock_pthreads.cpp; sourceTree = "<group>"; };
+		926D958F16DC45D00058BA15 /* ESNameResolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESNameResolver.cpp; path = ../src/ESNameResolver.cpp; sourceTree = "<group>"; };
+		926D959016DC45D00058BA15 /* ESNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESNetwork.cpp; path = ../src/ESNetwork.cpp; sourceTree = "<group>"; };
+		926D959116DC45D00058BA15 /* ESThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESThread.cpp; path = ../src/ESThread.cpp; sourceTree = "<group>"; };
+		926D959216DC45D00058BA15 /* ESTrace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESTrace.cpp; path = ../src/ESTrace.cpp; sourceTree = "<group>"; };
+		926D95A916DC45FA0058BA15 /* ESErrorReporter_Cocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESErrorReporter_Cocoa.mm; path = ../src/ESErrorReporter_Cocoa.mm; sourceTree = "<group>"; };
+		926D95AA16DC45FA0058BA15 /* ESFile_Cocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESFile_Cocoa.mm; path = ../src/ESFile_Cocoa.mm; sourceTree = "<group>"; };
+		926D95AB16DC45FA0058BA15 /* ESThread_Cocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESThread_Cocoa.mm; path = ../src/ESThread_Cocoa.mm; sourceTree = "<group>"; };
+		926D95AC16DC45FA0058BA15 /* ESUserPrefs_Cocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESUserPrefs_Cocoa.mm; path = ../src/ESUserPrefs_Cocoa.mm; sourceTree = "<group>"; };
+		926D95AD16DC45FA0058BA15 /* ESUtil_Cocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESUtil_Cocoa.mm; path = ../src/ESUtil_Cocoa.mm; sourceTree = "<group>"; };
+		926D95CB16DD73E00058BA15 /* ESUtil_MacOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESUtil_MacOS.mm; path = ../src/ESUtil_MacOS.mm; sourceTree = "<group>"; };
+		926D95CD16DD74AB0058BA15 /* ESNetwork_Cocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESNetwork_Cocoa.mm; path = ../src/ESNetwork_Cocoa.mm; sourceTree = "<group>"; };
+		926D95D416DD77F50058BA15 /* ESNetwork_MacOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESNetwork_MacOS.mm; path = ../src/ESNetwork_MacOS.mm; sourceTree = "<group>"; };
+		92CE104112E0310600D35626 /* ESErrorReporter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESErrorReporter.hpp; path = ../src/ESErrorReporter.hpp; sourceTree = SOURCE_ROOT; };
+		92CE104212E0310600D35626 /* ESThread_pthreads.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESThread_pthreads.cpp; path = ../src/ESThread_pthreads.cpp; sourceTree = SOURCE_ROOT; };
+		92CE104312E0310600D35626 /* ESThread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESThread.hpp; path = ../src/ESThread.hpp; sourceTree = SOURCE_ROOT; };
+		92CE104412E0310600D35626 /* ESUserString_Cocoa.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ESUserString_Cocoa.mm; path = ../src/ESUserString_Cocoa.mm; sourceTree = SOURCE_ROOT; };
+		92CE104512E0310600D35626 /* ESUserString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESUserString.cpp; path = ../src/ESUserString.cpp; sourceTree = SOURCE_ROOT; };
+		92CE104612E0310600D35626 /* ESUserString.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESUserString.hpp; path = ../src/ESUserString.hpp; sourceTree = SOURCE_ROOT; };
+		92CE104712E0310600D35626 /* ESUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESUtil.cpp; path = ../src/ESUtil.cpp; sourceTree = SOURCE_ROOT; };
+		92CE104812E0310600D35626 /* ESUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ESUtil.hpp; path = ../src/ESUtil.hpp; sourceTree = SOURCE_ROOT; };
+		92CE105112E0311400D35626 /* ESPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPlatform.h; path = ../src/ESPlatform.h; sourceTree = SOURCE_ROOT; };
+		D2AAC046055464E500DB518D /* libesutil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libesutil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* esutil */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Classes */,
+				92CE104012E030E000D35626 /* Other Sources */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = esutil;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92CE104112E0310600D35626 /* ESErrorReporter.hpp */,
+				926D958A16DC45D00058BA15 /* ESErrorReporter.cpp */,
+				926D95A916DC45FA0058BA15 /* ESErrorReporter_Cocoa.mm */,
+				926D957F16DC45D00058BA15 /* ESFile.hpp */,
+				926D958B16DC45D00058BA15 /* ESFile.cpp */,
+				922B1D2716DD8FC800DF56FD /* ESFile_simpleResource.cpp */,
+				926D95AA16DC45FA0058BA15 /* ESFile_Cocoa.mm */,
+				926D958016DC45D00058BA15 /* ESFileArray.hpp */,
+				926D958116DC45D00058BA15 /* ESFileArrayInl.hpp */,
+				926D958C16DC45D00058BA15 /* ESFileArray.cpp */,
+				926D958216DC45D00058BA15 /* ESInterThreadObserver.hpp */,
+				926D958D16DC45D00058BA15 /* ESInterThreadObserver.cpp */,
+				926D958316DC45D00058BA15 /* ESLock.hpp */,
+				926D958E16DC45D00058BA15 /* ESLock_pthreads.cpp */,
+				926D958416DC45D00058BA15 /* ESNameResolver.hpp */,
+				926D958F16DC45D00058BA15 /* ESNameResolver.cpp */,
+				926D958516DC45D00058BA15 /* ESNetwork.hpp */,
+				926D959016DC45D00058BA15 /* ESNetwork.cpp */,
+				926D95CD16DD74AB0058BA15 /* ESNetwork_Cocoa.mm */,
+				926D95D416DD77F50058BA15 /* ESNetwork_MacOS.mm */,
+				926D959116DC45D00058BA15 /* ESThread.cpp */,
+				92CE104212E0310600D35626 /* ESThread_pthreads.cpp */,
+				92CE104312E0310600D35626 /* ESThread.hpp */,
+				926D95AB16DC45FA0058BA15 /* ESThread_Cocoa.mm */,
+				926D958616DC45D00058BA15 /* ESThreadLocalStorage.hpp */,
+				926D958716DC45D00058BA15 /* ESThreadLocalStorageInl_pthreads.hpp */,
+				926D958816DC45D00058BA15 /* ESTrace.hpp */,
+				926D959216DC45D00058BA15 /* ESTrace.cpp */,
+				926D958916DC45D00058BA15 /* ESUserPrefs.hpp */,
+				926D95AC16DC45FA0058BA15 /* ESUserPrefs_Cocoa.mm */,
+				92CE104612E0310600D35626 /* ESUserString.hpp */,
+				92CE104512E0310600D35626 /* ESUserString.cpp */,
+				92CE104412E0310600D35626 /* ESUserString_Cocoa.mm */,
+				92CE104812E0310600D35626 /* ESUtil.hpp */,
+				92CE104712E0310600D35626 /* ESUtil.cpp */,
+				926D95AD16DC45FA0058BA15 /* ESUtil_Cocoa.mm */,
+				926D95CB16DD73E00058BA15 /* ESUtil_MacOS.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libesutil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92CE104012E030E000D35626 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				92CE105112E0311400D35626 /* ESPlatform.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE104912E0310600D35626 /* ESErrorReporter.hpp in Headers */,
+				92CE104B12E0310600D35626 /* ESThread.hpp in Headers */,
+				92CE104E12E0310600D35626 /* ESUserString.hpp in Headers */,
+				92CE105012E0310600D35626 /* ESUtil.hpp in Headers */,
+				92CE105212E0311400D35626 /* ESPlatform.h in Headers */,
+				926D959416DC45D00058BA15 /* ESFile.hpp in Headers */,
+				926D959516DC45D00058BA15 /* ESFileArray.hpp in Headers */,
+				926D959616DC45D00058BA15 /* ESFileArrayInl.hpp in Headers */,
+				926D959716DC45D00058BA15 /* ESInterThreadObserver.hpp in Headers */,
+				926D959816DC45D00058BA15 /* ESLock.hpp in Headers */,
+				926D959916DC45D00058BA15 /* ESNameResolver.hpp in Headers */,
+				926D959A16DC45D00058BA15 /* ESNetwork.hpp in Headers */,
+				926D959B16DC45D00058BA15 /* ESThreadLocalStorage.hpp in Headers */,
+				926D959C16DC45D00058BA15 /* ESThreadLocalStorageInl_pthreads.hpp in Headers */,
+				926D959D16DC45D00058BA15 /* ESTrace.hpp in Headers */,
+				926D959E16DC45D00058BA15 /* ESUserPrefs.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* esutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "esutil" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = esutil;
+			productName = esutil;
+			productReference = D2AAC046055464E500DB518D /* libesutil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "esutil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* esutil */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* esutil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE104A12E0310600D35626 /* ESThread_pthreads.cpp in Sources */,
+				92CE104C12E0310600D35626 /* ESUserString_Cocoa.mm in Sources */,
+				92CE104D12E0310600D35626 /* ESUserString.cpp in Sources */,
+				92CE104F12E0310600D35626 /* ESUtil.cpp in Sources */,
+				926D959F16DC45D00058BA15 /* ESErrorReporter.cpp in Sources */,
+				926D95A016DC45D00058BA15 /* ESFile.cpp in Sources */,
+				926D95A116DC45D00058BA15 /* ESFileArray.cpp in Sources */,
+				926D95A216DC45D00058BA15 /* ESInterThreadObserver.cpp in Sources */,
+				926D95A316DC45D00058BA15 /* ESLock_pthreads.cpp in Sources */,
+				926D95A416DC45D00058BA15 /* ESNameResolver.cpp in Sources */,
+				926D95A516DC45D00058BA15 /* ESNetwork.cpp in Sources */,
+				926D95A616DC45D00058BA15 /* ESThread.cpp in Sources */,
+				926D95A716DC45D00058BA15 /* ESTrace.cpp in Sources */,
+				926D95AF16DC45FA0058BA15 /* ESErrorReporter_Cocoa.mm in Sources */,
+				926D95B016DC45FA0058BA15 /* ESFile_Cocoa.mm in Sources */,
+				926D95B116DC45FA0058BA15 /* ESThread_Cocoa.mm in Sources */,
+				926D95B216DC45FA0058BA15 /* ESUserPrefs_Cocoa.mm in Sources */,
+				926D95B316DC45FA0058BA15 /* ESUtil_Cocoa.mm in Sources */,
+				926D95CC16DD73E00058BA15 /* ESUtil_MacOS.mm in Sources */,
+				926D95CE16DD74AB0058BA15 /* ESNetwork_Cocoa.mm in Sources */,
+				926D95D516DD77F50058BA15 /* ESNetwork_MacOS.mm in Sources */,
+				922B1D2816DD8FC800DF56FD /* ESFile_simpleResource.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = esutil;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = esutil;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "esutil-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ES_MACOS=1",
+					"DEBUG=1",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "esutil-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ES_MACOS=1",
+					NDEBUG,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "esutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "esutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

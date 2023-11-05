@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'estime' target in the 'estime' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#include <string>
+#include <stdlib.h>
+
+#include "ESPlatform.h"
